@@ -1,3 +1,5 @@
+# programmers.co.kr/learn/courses/30/lessons/12901
+
 def solution(a: int, b: int) -> str:
     # Friday comes first because the starting day Jan 1 is Friday
     days = ['FRI', 'SAT', 'SUN', 'MON', 'TUE', 'WED', 'THU']
