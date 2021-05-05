@@ -1,4 +1,4 @@
-def isPrime(n: int) -> int:
+def isPrime(n: int) -> bool:
     count = 0
     for i in range(2, n+1): # 2부터 n의 제곱근까지 약수
         if n % i == 0:
