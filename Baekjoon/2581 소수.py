@@ -1,4 +1,4 @@
-def isPrime(m: int, n: int) -> int:
+def isPrime(m: int, n: int) -> list:
     numbers = set(range(m, n+1))
 
     # remove previous prime number multiples
