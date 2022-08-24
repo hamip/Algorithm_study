@@ -3,7 +3,7 @@ def solution(n: int) -> int:
 
     for i in range(2, n):
         if n % i == 1:
-            x = min(x, i)
+            x = i
             break
             
     return x
